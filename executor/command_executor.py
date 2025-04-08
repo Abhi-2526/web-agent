@@ -10,7 +10,7 @@ class CommandExecutor:
 
     def __init__(self, host='localhost', port=2828):
         self.controller = EnhancedMarionetteController(host=host, port=port)
-        self.parser = CommandParser(api_key="sk-57d5003fdb004b66be37aabcd0e346ec")
+        self.parser = CommandParser(api_key="<api-key>")
         self.connected = False
 
     def connect(self):
