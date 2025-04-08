@@ -38,6 +38,8 @@ cd web-agent
 python -m venv venv
 source venv/bin/activate   # For Windows: venv\Scripts\activate
 
+# Add openAI API key in .env or command_executor
+
 # Install dependencies
 pip install -r requirements.txt
 
