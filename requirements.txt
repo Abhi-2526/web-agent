@@ -1,0 +1,7 @@
+Flask==2.2.5
+TinyDB==4.8.0
+marionette-driver==2.0.0
+openai==0.27.8
+pytesseract==0.3.10
+opencv-python==4.8.0.76
+numpy==1.24.2
